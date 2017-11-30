@@ -1,0 +1,12 @@
+<p>
+  building works!
+</p>
+
+<ul class="building">
+  <li *ngFor="let building of buildings" (click)="onSelect(building)">
+    <span class="badge"> {{building.id}}</span>
+    <span> {{building.name}}</span>
+    <button class="delete">X</button>
+
+  </li> 
+</ul>
