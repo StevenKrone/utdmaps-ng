@@ -3,7 +3,7 @@ html, body {
   width: 100%;
   height: 100%;
 	background: #f4ffe1;
-  font-family: "Quicksand";
+  font-family: "system-ui";
   position: absolute;
   overflow: hidden;
 }
