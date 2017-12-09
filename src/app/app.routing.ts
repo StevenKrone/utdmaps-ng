@@ -4,10 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { BuildingComponent  } from './-component/building/building.component';
 import { ConstructionComponent } from './-component/construction/construction.component';
 import { HousingComponent } from './-component/housing/housing.component';
+import { HomeComponent } from './-component/home/home.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/', pathMatch: 'full' },
-   { path: 'building',  component: BuildingComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+   { path: 'building', component: BuildingComponent  },
    { path: 'construction', component: ConstructionComponent},
    { path: 'housing',     component: HousingComponent },
 ];

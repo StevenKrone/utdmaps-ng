@@ -17,6 +17,7 @@ import { HousingComponent } from './-component/housing/housing.component';
 
 
 import { BuildingService } from './-services/building.service';
+import { HomeComponent } from './-component/home/home.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { BuildingService } from './-services/building.service';
     AppComponent,
     BuildingComponent,
     ConstructionComponent,
-    HousingComponent
+    HousingComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
