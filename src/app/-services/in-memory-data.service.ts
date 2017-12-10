@@ -1,10 +1,10 @@
-import { InMemoryDbService } from 'angular-in-memory-web-api';
+// import { InMemoryDbService } from 'angular-in-memory-web-api';
 import { BuildingService } from './building.service';
 import {Building} from '../-class/building';
 //import { xyarea } from '../-class/xyarea';
 
-export class InMemoryDataService implements InMemoryDbService {
-
+export class InMemoryDataService {
+// implements InMemoryDbService 
     //space: xyarea;
 
   createDb() {

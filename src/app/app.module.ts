@@ -4,8 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 
-import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService }  from './-services/in-memory-data.service';
+// import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
+// import { InMemoryDataService }  from './-services/in-memory-data.service';
 
 import { AppRoutingModule } from './app.routing';
 import { provideRoutes, RouterModule, Routes } from '@angular/router';
@@ -170,11 +170,13 @@ import { RhsComponent } from './-component/pageofbuilding/rhs/rhs.component';
     BrowserModule,
     AppRoutingModule,
     HttpModule,
-    InMemoryWebApiModule.forRoot(InMemoryDataService),
+    // InMemoryWebApiModule.forRoot(InMemoryDataService),
     AppRoutingModule,
     FormsModule,
   ],
-  providers: [BuildingService],
+  providers: [],
+  // providers: [BuildingService],
+  
   bootstrap: [AppComponent]
 })
 export class AppModule { }
