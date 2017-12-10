@@ -1,8 +1,8 @@
-<p>
+<!-- <p>
   building works!
 </p>
 
-<ul class="building">
+<ul class="listOfBuildings">
   <li *ngFor="let building of buildings" (click)="onSelect(building)">
     <span class="badge"> {{building.id}}</span>
     <span> {{building.name}}</span>
@@ -10,3 +10,42 @@
 
   </li> 
 </ul>
+
+
+<div *ngIf="selectedBuilding">
+  <h2>
+    {{selectedBuilding.name | uppercase}} is selectedBuilding
+  </h2>
+  <button (click)="gotoDetail()">View Details</button>
+  </div> -->
+
+  <!-- <p>
+  home works!
+</p> -->
+
+<!--style="height:50%; width:30%;"  -->
+<div class="container" style="max-width:100%; width:100%;"  >
+
+  <span class="row">
+    <span class="col-md-8" >
+      <div class="container" >
+      <img class="img-responsive" src="../../../assets/rootMap.PNG" style='position:relative;' border="0" alt="Null">
+      </div>
+    </span>
+
+    <span class="col-md-4">
+    <app-buildinglist></app-buildinglist>
+    </span>
+
+  </span> 
+
+</div>
+
+
+
+<!-- <p>
+  <a href="MY WEBSITE LINK" target="_blank">
+    
+  </a>
+</p> -->
+

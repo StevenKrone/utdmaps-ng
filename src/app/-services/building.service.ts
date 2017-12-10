@@ -11,7 +11,7 @@ import 'rxjs/add/operator/toPromise';
 @Injectable()
 export class BuildingService {
 
-  private buildingUrl = 'api/buildings';
+  private buildingUrl = 'api/building';
   constructor(private http: Http){}
 
 

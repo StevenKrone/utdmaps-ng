@@ -1,4 +1,4 @@
-import { xyarea } from './xyarea';
+//import { xyarea } from './xyarea';
 
 export class Building {
  
@@ -6,6 +6,6 @@ export class Building {
     name: string;
 
     //ClickableDimensions (of the building on the map)
-    clkDim: xyarea; 
+    //clkDim: xyarea; 
 
 }

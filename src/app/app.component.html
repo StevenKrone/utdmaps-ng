@@ -1,5 +1,8 @@
 
 
+<div class="container">
+
+
 	 <nav class="navbar navbar-toggleable-md navbar-light bg-faded"  >
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -14,11 +17,14 @@
       <li routerLink="/building" routerLinkActive="active" class="nav-item">
         <a class="nav-link">Building</a>
       </li>
-      <li routerLink="/construction" routerLinkActive="active" class="nav-item">
+      <!-- <li routerLink="/construction" routerLinkActive="active" class="nav-item">
         <a class="nav-link">Construction</a>
-      </li>
+      </li> -->
       <li routerLink="/housing" routerLinkActive="active" class="nav-item">
         <a class="nav-link">Housing</a>
+      </li>
+        <li routerLink="/parking" routerLinkActive="active" class="nav-item">
+        <a class="nav-link">Parking</a>
       </li>
     </ul>
     <!-- <form class="form-inline my-2 my-lg-0">
@@ -30,25 +36,18 @@
 
 
 
-<div class="container">
-
-
 
 <!-- style="background-color:orange;" -->
 <div class="row" >
 <div class="col-md-1" >
-	<div style="height:500px">
 
-	</div>
 </div>
-<div class="col-md-10">
+<div class="col-md-10 container" >
  <router-outlet></router-outlet>
 </div>
-<!--style="background-color:orange;"  -->
-<div class="col-md-1" >
- <div style="height:500px">
 
-	</div>
+<div class="col-md-1" >
+
 </div>
 
 </div>

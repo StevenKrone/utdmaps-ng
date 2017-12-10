@@ -6,6 +6,8 @@ html, body {
   font-family: "system-ui";
   position: absolute;
   overflow: hidden;
+  overflow-y: visible;
+  overflow-x: visible;
 }
 
 .header { position: absolute; z-index: 1;}

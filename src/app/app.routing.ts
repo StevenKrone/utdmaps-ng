@@ -5,6 +5,7 @@ import { BuildingComponent  } from './-component/building/building.component';
 import { ConstructionComponent } from './-component/construction/construction.component';
 import { HousingComponent } from './-component/housing/housing.component';
 import { HomeComponent } from './-component/home/home.component';
+import { ParkingComponent } from './-component/parking/parking.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -12,6 +13,7 @@ const routes: Routes = [
    { path: 'building', component: BuildingComponent  },
    { path: 'construction', component: ConstructionComponent},
    { path: 'housing',     component: HousingComponent },
+   { path: 'parking',     component: ParkingComponent }
 ];
 
 @NgModule({

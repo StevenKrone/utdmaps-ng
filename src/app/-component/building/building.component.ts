@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 
 import { Building } from '../../-class/building';
-import { xyarea } from '../../-class/xyarea';
+//import { xyarea } from '../../-class/xyarea';
 
 import {BuildingService} from '../../-services/building.service';
 
@@ -16,7 +16,7 @@ export class BuildingComponent implements OnInit {
 
   selectedBuilding: Building;
   listOfBuildings: Building[];
-  space: xyarea;
+  //space: xyarea;
 
   constructor(private buildingservice: BuildingService, private router: Router) {
 
@@ -24,6 +24,7 @@ export class BuildingComponent implements OnInit {
    }
 
   ngOnInit() {
+    this.getListofBuildings();
   }
 
   
