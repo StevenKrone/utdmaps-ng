@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+//import { AppComponent } from '../../app.component';
+declare var test: any;
 
 @Component({
   selector: 'app-buildinglist',
@@ -11,5 +13,10 @@ export class BuildinglistComponent implements OnInit {
 
   ngOnInit() {
   }
+
+
+  //   f(){
+  //   new test();
+  // }
 
 }
