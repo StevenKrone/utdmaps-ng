@@ -10,13 +10,15 @@
   <a class="navbar-brand" href="#" style=" font-size: 25px; color: green;" >{{title}}</a>
  `  
   <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color:#008542;">
+    <div id="menu-outer">
+    <div class="table">
     <ul class="navbar-nav mr-auto">
-      <li routerLink="/" routerLinkActive="active" class="nav-item active">
-        <a style="color:white" class="nav-link" >Home </a>
+      <li routerLink="/" routerLinkActive="active" class="nav-item active" style="">
+        <a style="color:white; " class="nav-link" >Home </a>
       </li>
       <li routerLink="/building" routerLinkActive="active" class="nav-item">
         <a style="color:white" class="nav-link">Building</a>
-      </li>
+      </li> 
       <!-- <li routerLink="/construction" routerLinkActive="active" class="nav-item">
         <a class="nav-link"><strong>Construction</strong></a>
       </li> -->
@@ -27,6 +29,8 @@
         <a style="color:white" class="nav-link">Parking</a>
       </li>
     </ul>
+    </div>
+    </div>
       <!-- <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -43,7 +47,9 @@
 
 </div> -->
 <!-- <div class="col-md-10 container" > -->
- <router-outlet></router-outlet>
+
+  <app-routedisplay></app-routedisplay>
+ <!--<router-outlet></router-outlet>-->
 <!-- </div>
 
 <div class="col-md-1" >
