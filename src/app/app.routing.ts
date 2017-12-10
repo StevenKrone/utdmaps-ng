@@ -59,6 +59,24 @@ import { VbcComponent} from './-component/pageofbuilding/vbc/vbc.component';
 import { WstcComponent} from './-component/pageofbuilding/wstc/wstc.component';
 
 
+import { P1Component} from './-component/pageofbuilding/p1/p1.component';
+import { P2Component} from './-component/pageofbuilding/p2/p2.component';
+import { P3Component} from './-component/pageofbuilding/p3/p3.component';
+import { P4Component} from './-component/pageofbuilding/p4/p4.component';
+import { P5Component} from './-component/pageofbuilding/p5/p5.component';
+import { P6Component} from './-component/pageofbuilding/p6/p6.component';
+import { P7Component} from './-component/pageofbuilding/p7/p7.component';
+import { P8aComponent} from './-component/pageofbuilding/p8a/p8a.component';
+import { P8Component} from './-component/pageofbuilding/p8/p8.component';
+import { P9Component} from './-component/pageofbuilding/p9/p9.component';
+import { RhnwComponent} from './-component/pageofbuilding/rhnw/rhnw.component';
+import { RhnComponent} from './-component/pageofbuilding/rhn/rhn.component';
+import { RhsComponent} from './-component/pageofbuilding/rhs/rhs.component';
+import { RhswComponent} from './-component/pageofbuilding/rhsw/rhsw.component';
+import { RhwComponent} from './-component/pageofbuilding/rhw/rhw.component';
+import { Ch6Component} from './-component/pageofbuilding/ch6/ch6.component';
+import { Ch7Component} from './-component/pageofbuilding/ch7/ch7.component';
+
 
 
 const routes: Routes = [
@@ -119,7 +137,25 @@ const routes: Routes = [
   { path: 'building/SUFC', component: SufcComponent  },
   { path: 'building/TH', component: ThComponent  },
   { path: 'building/VBC', component: VbcComponent  },
-  { path: 'building/WSTC', component: WstcComponent  }
+  { path: 'building/WSTC', component: WstcComponent  },
+
+ { path: 'housing/P1', component: P1Component  },
+{ path: 'housing/P2', component: P2Component  },
+{ path: 'housing/P3', component: P3Component  },
+{ path: 'housing/P4', component: P4Component  },
+{ path: 'housing/P5', component: P5Component  },
+{ path: 'housing/P6', component: P6Component  },
+{ path: 'housing/P7', component: P7Component  },
+{ path: 'housing/P8a', component: P8aComponent  },
+{ path: 'housing/P8', component: P8Component  },
+{ path: 'housing/P9', component: P9Component  },
+{ path: 'housing/RHNW', component: RhnwComponent  },
+{ path: 'housing/RHN', component: RhnComponent  },
+{ path: 'housing/RHS', component: RhsComponent  },
+{ path: 'housing/RHSW', component: RhswComponent  },
+{ path: 'housing/RHW', component: RhwComponent  },
+{ path: 'housing/CH6', component: Ch6Component  },
+{ path: 'housing/CH7', component: Ch7Component  }
 
 
 

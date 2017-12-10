@@ -70,6 +70,23 @@ import { SufcComponent } from './-component/pageofbuilding/sufc/sufc.component';
 import { ThComponent } from './-component/pageofbuilding/th/th.component';
 import { VbcComponent } from './-component/pageofbuilding/vbc/vbc.component';
 import { WstcComponent } from './-component/pageofbuilding/wstc/wstc.component';
+import { P1Component } from './-component/pageofbuilding/p1/p1.component';
+import { P2Component } from './-component/pageofbuilding/p2/p2.component';
+import { P3Component } from './-component/pageofbuilding/p3/p3.component';
+import { P5Component } from './-component/pageofbuilding/p5/p5.component';
+import { P6Component } from './-component/pageofbuilding/p6/p6.component';
+import { P8aComponent } from './-component/pageofbuilding/p8a/p8a.component';
+import { P8Component } from './-component/pageofbuilding/p8/p8.component';
+import { P9Component } from './-component/pageofbuilding/p9/p9.component';
+import { RhnComponent } from './-component/pageofbuilding/rhn/rhn.component';
+import { RhswComponent } from './-component/pageofbuilding/rhsw/rhsw.component';
+import { RhwComponent } from './-component/pageofbuilding/rhw/rhw.component';
+import { Ch6Component } from './-component/pageofbuilding/ch6/ch6.component';
+import { Ch7Component } from './-component/pageofbuilding/ch7/ch7.component';
+import { P4Component } from './-component/pageofbuilding/p4/p4.component';
+import { P7Component } from './-component/pageofbuilding/p7/p7.component';
+import { RhnwComponent } from './-component/pageofbuilding/rhnw/rhnw.component';
+import { RhsComponent } from './-component/pageofbuilding/rhs/rhs.component';
 
 
 @NgModule({
@@ -130,7 +147,24 @@ import { WstcComponent } from './-component/pageofbuilding/wstc/wstc.component';
     SufcComponent,
     ThComponent,
     VbcComponent,
-    WstcComponent
+    WstcComponent,
+    P1Component,
+    P2Component,
+    P3Component,
+    P5Component,
+    P6Component,
+    P8aComponent,
+    P8Component,
+    P9Component,
+    RhnComponent,
+    RhswComponent,
+    RhwComponent,
+    Ch6Component,
+    Ch7Component,
+    P4Component,
+    P7Component,
+    RhnwComponent,
+    RhsComponent
   ],
   imports: [
     BrowserModule,
