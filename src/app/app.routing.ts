@@ -77,15 +77,27 @@ import { RhwComponent} from './-component/pageofbuilding/rhw/rhw.component';
 import { Ch6Component} from './-component/pageofbuilding/ch6/ch6.component';
 import { Ch7Component} from './-component/pageofbuilding/ch7/ch7.component';
 
+import { RoutedisplayComponent} from './-component/routedisplay/routedisplay.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
-   { path: 'building', component: BuildingComponent  },
-   { path: 'construction', component: ConstructionComponent},
-   { path: 'housing',     component: HousingComponent },
-   { path: 'parking',     component: ParkingComponent },
+  
+  {
+    children:[
+      { path: '', redirectTo: '/home', pathMatch: 'full' },
+      { path: 'home', component: HomeComponent },
+
+
+      { path: 'building', component: BuildingComponent  },
+
+
+      { path: 'construction', component: ConstructionComponent},
+
+
+      { path: 'housing',     component: HousingComponent },
+
+
+      { path: 'parking',     component: ParkingComponent },
 
   //Routing Lists of Building Pages
   { path: 'building/AB', component: AbComponent  },
@@ -158,8 +170,11 @@ const routes: Routes = [
 { path: 'housing/CH7', component: Ch7Component  }
 
 
-
+],
+path: '', component: RoutedisplayComponent
+  } 
 ];
+
 
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],

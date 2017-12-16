@@ -87,6 +87,7 @@ import { P4Component } from './-component/pageofbuilding/p4/p4.component';
 import { P7Component } from './-component/pageofbuilding/p7/p7.component';
 import { RhnwComponent } from './-component/pageofbuilding/rhnw/rhnw.component';
 import { RhsComponent } from './-component/pageofbuilding/rhs/rhs.component';
+import { RoutedisplayComponent } from './-component/routedisplay/routedisplay.component';
 
 
 @NgModule({
@@ -164,7 +165,8 @@ import { RhsComponent } from './-component/pageofbuilding/rhs/rhs.component';
     P4Component,
     P7Component,
     RhnwComponent,
-    RhsComponent
+    RhsComponent,
+    RoutedisplayComponent
   ],
   imports: [
     BrowserModule,
